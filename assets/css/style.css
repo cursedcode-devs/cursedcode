@@ -608,6 +608,11 @@ footer {
         padding: 0.5rem 10px;
         position: sticky;
         top: 0;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .navbar.hidden {
+        transform: translateY(-100%);
     }
     
     .main-logo {

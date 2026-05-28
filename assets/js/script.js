@@ -25,3 +25,22 @@ if (glitchText) {
         }, 50);
     }, 3000);
 }
+
+// Smart Mobile Navbar - Hide on scroll down, Show on scroll up
+let lastScrollY = window.scrollY;
+const navbar = document.querySelector('.navbar');
+
+window.addEventListener('scroll', () => {
+    if (window.innerWidth <= 768) {
+        if (window.scrollY > lastScrollY && window.scrollY > 100) {
+            // Scrolling down and past the very top
+            navbar.classList.add('hidden');
+        } else {
+            // Scrolling up
+            navbar.classList.remove('hidden');
+        }
+    } else {
+        navbar.classList.remove('hidden'); // Ensure visible on desktop
+    }
+    lastScrollY = window.scrollY;
+});
