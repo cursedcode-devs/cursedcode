@@ -606,13 +606,19 @@ footer {
         flex-direction: column;
         gap: 0.5rem;
         padding: 0.5rem 10px;
-        position: sticky;
+        position: fixed;
         top: 0;
+        width: 100%;
+        z-index: 1000;
         transition: transform 0.3s ease-in-out;
     }
     
     .navbar.hidden {
         transform: translateY(-100%);
+    }
+
+    #hero {
+        padding-top: 220px;
     }
     
     .main-logo {
