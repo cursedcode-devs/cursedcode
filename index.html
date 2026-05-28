@@ -59,11 +59,13 @@
 
         <section id="gameplay">
             <h2>Podgląd Systemu</h2>
-            <div class="video-wrapper">
-                <video controls poster="assets/images/miniaturka1.png" style="width: 100%; border: 2px solid var(--orange);">
-                    <source src="assets/videos/trailer.mp4" type="video/mp4">
-                    Twoja przeglądarka nie obsługuje wideo.
-                </video>
+            <div class="video-wrapper-outer">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/ZOoU4o7II5U" 
+                            title="Trailer - Ostatnie Echo" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                </div>
             </div>
             <a href="#origins" class="scroll-arrow">▼</a>
         </section>
@@ -72,21 +74,23 @@
             <h2>Nasze Początki</h2>
             <p class="origins-desc">Po tygodniach burzliwych dyskusji i odrzucaniu kolejnych koncepcji, prawdziwe olśnienie przyszło w najmniej oczekiwanym momencie. Pomysł na grę narodził się zupełnie niewinnie podczas jednego ze wspólnych wyjazdów integracyjnych, gdy w głośnikach stołówki słyszeliśmy audycję radiową. Szybko uznaliśmy, że zarządzanie niszową stacją w latach 90. to motyw nie tylko wyjątkowy, ale też idealny do zrealizowania z naszym ograniczonym budżetem. Pomiędzy wykładami szkicowaliśmy koncepty na marginesach notatek, a po powrotach do domów, przelewaliśmy te wizje w działający kod. Projekt ewoluował niezliczoną ilość razy. Mamy ogromną nadzieję, że finalny produkt umili Wam czas i przyniesie tyle samo frajdy, co nam jego tworzenie!</p>
             <div class="origins-grid">
-                <img src="assets/images/poczatek1.png" alt="Początki 1">
-                <img src="assets/images/poczatek2.png" alt="Początki 2">
-                <img src="assets/images/poczatek3.png" alt="Początki 3">
+                <img src="assets/images/poczatek1.png" alt="Początki 1" loading="lazy">
+                <img src="assets/images/poczatek2.png" alt="Początki 2" loading="lazy">
+                <img src="assets/images/poczatek3.png" alt="Początki 3" loading="lazy">
             </div>
             <a href="#walkthrough" class="scroll-arrow">▼</a>
         </section>
 
         <section id="walkthrough">
-            <h2>Archiwum Transmisji (Solucja)</h2>
-            <p style="text-align: center; max-width: 1200px; margin: 0 auto 1rem;">Utknąłeś w zarządzaniu budżetem? Zobacz jak przejść najtrudniejsze momenty gry.</p>
-            <div class="video-wrapper">
-                <video controls poster="assets/images/main_bg.png" style="width: 100%; border: 2px solid var(--orange);">
-                    <source src="assets/videos/solucja.mp4" type="video/mp4">
-                    Twoja przeglądarka nie obsługuje wideo.
-                </video>
+            <h2>Archiwum Transmisji</h2>
+            <p style="text-align: center; max-width: 1200px; margin: 0 auto 1rem;">Utknąłeś w zarządzaniu budżetem? Odpocznij chwilę i w przerwie na jedzenie zobacz jak radzimy sobie z wyzwaniem kucharskim jako zespół.</p>
+            <div class="video-wrapper-outer">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/Ac2KHLeNiN4" 
+                            title="Solucja - Ostatnie Echo" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                </div>
             </div>
             <a href="#crowdfunding" class="scroll-arrow">▼</a>
         </section>
@@ -100,10 +104,10 @@
                     <p>Dorzucamy plakat z podpisami redakcji, koszulki, case na telefon i czapkę. Stając się "Founderem", udowadniasz, że niezależne głosy wciąż mają znaczenie!</p>
                 </div>
                 <div class="crowdfund-images">
-                    <img src="assets/images/gramofon.png" alt="Gramofon Founders Edition">
-                    <img src="assets/images/inne.png" alt="Elementy zestawu">
-                    <img src="assets/images/merch.png" alt="Merch z kampanii">
-                    <img src="assets/images/plakat.png" alt="Plakat Cursed Code">
+                    <img src="assets/images/inne.png" alt="Crowdfunding 1" loading="lazy">
+                    <img src="assets/images/plakat.png" alt="Crowdfunding 2" loading="lazy">
+                    <img src="assets/images/gramofon.png" alt="Crowdfunding 3" loading="lazy">
+                    <img src="assets/images/merch.png" alt="Crowdfunding 4" loading="lazy">
                 </div>
             </div>
             <a href="#merch" class="scroll-arrow">▼</a>
@@ -114,49 +118,53 @@
             <p style="text-align:center; margin-bottom: 2rem;">Prawdziwe hity prosto z bagażnika! Tylko u nas, taniej niż u konkurencji zza rzeki.</p>
             <div class="merch-grid">
                 <div class="merch-card">
-                    <div class="image-swap">
-                        <img src="assets/images/render_1.png" alt="Koszulka Przód" class="front-img">
-                        <img src="assets/images/render_2.png" alt="Koszulka Tył" class="back-img">
-                    </div>
-                    <h3>Koszulka "Żubr"</h3>
+                    <img src="assets/images/kaseta.png" alt="Kaseta VHS" loading="lazy">
+                    <h3>Edycja Fizyczna VHS</h3>
                     <div class="merch-bottom">
-                        <p class="price">3 500 000 zł</p>
-                        <button class="cta-button btn-small">Kup Teraz</button>
+                        <div class="price">4 500 000 zł</div>
+                        <button class="cta-button btn-small">KUP TERAZ</button>
                     </div>
                 </div>
+
                 <div class="merch-card">
                     <div class="image-swap">
-                        <img src="assets/images/render_3.png" alt="Bluza Przód" class="front-img">
-                        <img src="assets/images/render_4.png" alt="Bluza Tył" class="back-img">
+                        <img src="assets/images/render_1.png" alt="Koszulka Przód" class="front-img" loading="lazy">
+                        <img src="assets/images/render_2.png" alt="Koszulka Tył" class="back-img" loading="lazy">
                     </div>
-                    <h3>Bluza Redakcyjna</h3>
+                    <h3>Koszulka "On Air"</h3>
                     <div class="merch-bottom">
-                        <p class="price">5 000 000 zł</p>
-                        <button class="cta-button btn-small">Kup Teraz</button>
-                    </div>
-                </div>
-                <div class="merch-card">
-                    <img src="assets/images/render_6.png" alt="Czapka">
-                    <h3>Czapka z daszkiem</h3>
-                    <div class="merch-bottom">
-                        <p class="price">1 500 000 zł</p>
-                        <button class="cta-button btn-small">Kup Teraz</button>
+                        <div class="price">2 900 000 zł</div>
+                        <button class="cta-button btn-small">KUP TERAZ</button>
                     </div>
                 </div>
+
                 <div class="merch-card">
-                    <img src="assets/images/render_5.png" alt="Torba">
-                    <h3>Torba Ekologiczna (Na ziemniaki)</h3>
+                    <div class="image-swap">
+                        <img src="assets/images/render_3.png" alt="Bluza Przód" class="front-img" loading="lazy">
+                        <img src="assets/images/render_4.png" alt="Bluza Tył" class="back-img" loading="lazy">
+                    </div>
+                    <h3>Ciepła Bluza</h3>
                     <div class="merch-bottom">
-                        <p class="price">1 200 000 zł</p>
-                        <button class="cta-button btn-small">Kup Teraz</button>
+                        <div class="price">6 500 000 zł</div>
+                        <button class="cta-button btn-small">KUP TERAZ</button>
                     </div>
                 </div>
+
                 <div class="merch-card">
-                    <img src="assets/images/kaseta.png" alt="Kaseta">
-                    <h3>Piracka Kaseta (Audio)</h3>
+                    <img src="assets/images/render_5.png" alt="Torba" loading="lazy">
+                    <h3>Torba Ekologiczna</h3>
                     <div class="merch-bottom">
-                        <p class="price">800 000 zł</p>
-                        <button class="cta-button btn-small">Kup Teraz</button>
+                        <div class="price">1 200 000 zł</div>
+                        <button class="cta-button btn-small">KUP TERAZ</button>
+                    </div>
+                </div>
+
+                <div class="merch-card">
+                    <img src="assets/images/render_6.png" alt="Czapka" loading="lazy">
+                    <h3>Czapka z Daszkiem</h3>
+                    <div class="merch-bottom">
+                        <div class="price">1 500 000 zł</div>
+                        <button class="cta-button btn-small">KUP TERAZ</button>
                     </div>
                 </div>
             </div>
@@ -167,11 +175,11 @@
             <h2>Nasza Stacja Nadawcza na Targach</h2>
             <div class="about-grid">
                 <div class="targi-images">
-                    <img src="assets/images/targi_0.png" alt="Stoisko Targowe 1">
-                    <img src="assets/images/targi_1.png" alt="Stoisko Targowe 2">
-                    <img src="assets/images/targi_2.png" alt="Stoisko Targowe 3">
+                    <img src="assets/images/targi_1.png" alt="Targi PAX East 1" loading="lazy">
+                    <img src="assets/images/targi_2.png" alt="Targi PAX East 2" loading="lazy">
+                    <img src="assets/images/targi_0.png" alt="Targi PAX East 3" loading="lazy">
                     <div class="targi-more">
-                        <span>Zobacz więcej...</span>
+                        <span>Zobacz Więcej Zdjęć ></span>
                     </div>
                 </div>
                 <div class="about-text">
